@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="index.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <form>
+        <!-- champ nom avec input text -->
+        <label for="nom"Nom:></label>
+        <input type="text" id="nom" name="nom" value="Arthur">
+
+        <br>
+        <!-- champ avec conditions avec checkbox -->
+        <label for="conditions">Accepter vous les conditions : </label>
+        <input type="checkbox" id="conditions" name="accepter" checked>
+
+      <br>
+
+        <!-- champ residence avec boutons radio: France, UE, hors UE, -->
+        <label for=" residence">Résidence</label>
+
+      <br>
+      
+        <input type="radio" id="france" name="residence" value="france" checked>
+        <label for="france">France </label>
+        <input type="radio" id="eu" name="residence" value="eu">
+        <label for="eu">Europe</label>
+        <input type="radio" id="hors-eu" name="residence" value="hors-eu">
+        <label for="hors-eu">Hors-Europe</label>
+  </form>
+</body>
+
+</html>
